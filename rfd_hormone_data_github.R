@@ -22,7 +22,7 @@ dharma.fun <- function(model, data, responseVar){
 
 #Read in data---------------------------------------------------
 setwd("~/Box/MYLF_CBARP/Manuscripts/Thumbpads Females/hormone R script_data")
-d <- read.csv("nat_leah_hormone_data_7oct2020.csv")
+d <- read.csv("rfd_hormone_data.csv")
 meta <- read.csv("nat_leah_hormone_data_updated23sep.csv")
 meta <- unique(meta[,c("sex_checked","Accession")])
 names(meta)[1] <- "sex"
